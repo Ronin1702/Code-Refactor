@@ -6,3 +6,4 @@
 \\Alt+Left Click after each line or word multi-selects what you would like you edit.
 \\Ctrl + < to hight light seclected lines or words.
 
+
