@@ -6,6 +6,7 @@ My priorpity is to rewrite the codes for the Horiseion website to make sure the 
 
 A link to the deployed website is [link="https://ronin1702.github.io/Code-Refactor/"]
 
-![Alt text](Screenshots\Screenshot.png)
+## Screenshot of the final website
+![Screenshot](./Screenshots/Screenshot.png)
 
 
