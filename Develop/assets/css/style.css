@@ -1,34 +1,32 @@
-/* Universal Element Selector: setting entire size for the website */
+/* Reset CSS */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Body selector settings background color*/
+/* Body styles */
 body {
     background-color: #d9dcd6;
 }
 
-/* Header selector setting general padding size, font, background color and font color*/
+/* Header styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* Subtag h1 under header selector */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* class selector under h1 */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* nav-bar header selector style*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,28 +35,28 @@ body {
     font-size: 20px;
 }
 
-/* Unorganzied list style under nav-bar */
 .header nav ul {
     list-style-type: none;
+
 }
 
-/* list style under unorganized list style */
 .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+    display: inline-flex;
+    flex: wrap;
+
 }
 
-/* text style for nav bar */
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: white;
+    text-decoration:solid,underline
+    
 }
-/* text style for paragraphs */
+
 p {
     font-size: 16px;
 }
 
-/* styling an image with class selector hero */
+/* Hero section styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -68,26 +66,42 @@ p {
     background-position: center;
 }
 
-/* shift image to left position */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/* shift image to right position */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* content selector setting styles for first section selector */
+/* Content section styles */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* benefit selector setting styles for second section selector */
+.articleone {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.articleone img {
+    max-height: 200px;
+}
+
+.articleone h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Benefits section styles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -99,46 +113,23 @@ p {
     background-color: #2589bd;
 }
 
-/* benefit-text selector for all article selector under benefit class selector*/
-.benefit-text{
+.benefit-text {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* h3 selector under benefit-text class selector */
-.benefit-text h3{
+.benefit-text h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* img selector under benefit-text class selector */
-.benefit-text img{
+
+.benefit-text img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Articleone selector under content class selector */
-.articleone {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* image selector under articleone class selector */
-.articleone img {
-    max-height: 200px;
-}
-
-/* h2 selector under articleone class selector */
-.articleone h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* footer class selector setting styles for footer */
+/* Footer styles */
 .footer {
     padding: 30px;
     clear: both;
@@ -146,7 +137,6 @@ p {
     text-align: center;
 }
 
-/* h2 style selector under footer class */
 .footer h2 {
     font-size: 20px;
 }
